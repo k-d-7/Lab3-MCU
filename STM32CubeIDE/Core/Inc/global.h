@@ -10,6 +10,7 @@
 
 #include "button.h"
 #include "software_timer.h"
+#include "LED.h"
 
 #define NORMAL_MODE		1
 #define RED_MODE		2

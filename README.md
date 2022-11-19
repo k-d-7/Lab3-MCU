@@ -21,4 +21,4 @@ YELLOW_MODE		11\
 NORMAL_MODE:\
 	Red: 5s\
 	Green: 3s\
-	Yellow: 2s\
+	Yellow: 2s

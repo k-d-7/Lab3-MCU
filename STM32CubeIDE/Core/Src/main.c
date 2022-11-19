@@ -119,9 +119,14 @@ int main(void)
   int index = 0;
   while (1)
   {
+	if (isKey1Pressed() == 1) {
+		setTimer5(25);
+		setTimer6(50);
+	}
 
 	fsm_automatic_run();
 	fsm_manual_run();
+
 	if (timer5_flag == 1) {
 		setTimer5(100);
 		if (time_main > 0) {
@@ -134,8 +139,6 @@ int main(void)
 			value--;
 		}
 	}
-
-
 
 	if (timer3_flag == 1) {
 		setTimer3(50);

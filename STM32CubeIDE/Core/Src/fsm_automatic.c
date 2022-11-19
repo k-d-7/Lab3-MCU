@@ -25,12 +25,18 @@ void fsm_automatic_run() {
 			}
 			if (mode == RED_MODE) {
 				main_status = MAN_RED;
+				setTimer4(50);
+				ClearLED();
 			}
 			if (mode == GREEN_MOD) {
 				main_status = MAN_GREEN;
+				setTimer4(50);
+				ClearLED();
 			}
 			if (mode == YELLOW_MODE) {
 				main_status = MAN_YELLOW;
+				setTimer4(50);
+				ClearLED();
 			}
 			break;
 		case AUTO_GREEN:
@@ -44,12 +50,18 @@ void fsm_automatic_run() {
 			}
 			if (mode == RED_MODE) {
 				main_status = MAN_RED;
+				setTimer4(50);
+				ClearLED();
 			}
 			if (mode == GREEN_MOD) {
 				main_status = MAN_GREEN;
+				setTimer4(50);
+				ClearLED();
 			}
 			if (mode == YELLOW_MODE) {
 				main_status = MAN_YELLOW;
+				setTimer4(50);
+				ClearLED();
 			}
 			break;
 		case AUTO_YELLOW:
@@ -63,12 +75,18 @@ void fsm_automatic_run() {
 			}
 			if (mode == RED_MODE) {
 				main_status = MAN_RED;
+				setTimer4(50);
+				ClearLED();
 			}
 			if (mode == GREEN_MOD) {
 				main_status = MAN_GREEN;
+				setTimer4(50);
+				ClearLED();
 			}
 			if (mode == YELLOW_MODE) {
 				main_status = MAN_YELLOW;
+				setTimer4(50);
+				ClearLED();
 			}
 			break;
 		default:
@@ -92,12 +110,15 @@ void fsm_automatic_run() {
 			}
 			if (mode == RED_MODE) {
 				sub_status = MAN_GREEN;
+				ClearLED();
 			}
 			if (mode == GREEN_MOD) {
 				sub_status = MAN_RED;
+				ClearLED();
 			}
 			if (mode == YELLOW_MODE) {
 				sub_status = MAN_YELLOW;
+				ClearLED();
 			}
 			break;
 		case AUTO_GREEN:
@@ -111,12 +132,15 @@ void fsm_automatic_run() {
 			}
 			if (mode == RED_MODE) {
 				sub_status = MAN_GREEN;
+				ClearLED();
 			}
 			if (mode == GREEN_MOD) {
 				sub_status = MAN_RED;
+				ClearLED();
 			}
 			if (mode == YELLOW_MODE) {
 				sub_status = MAN_YELLOW;
+				ClearLED();
 			}
 			break;
 		case AUTO_YELLOW:
@@ -130,12 +154,15 @@ void fsm_automatic_run() {
 			}
 			if (mode == RED_MODE) {
 				sub_status = MAN_GREEN;
+				ClearLED();
 			}
 			if (mode == GREEN_MOD) {
 				sub_status = MAN_RED;
+				ClearLED();
 			}
 			if (mode == YELLOW_MODE) {
 				sub_status = MAN_YELLOW;
+				ClearLED();
 			}
 			break;
 		default:
